@@ -9,7 +9,7 @@ Basic application template for Cortex-M0
   * CPU goes to PC, and starts executing further instructions (4)
   
 ```
-  Memory Layout
+  Initial Memory Layout
   
     ADDRESS         VALUE
  | 0x00000000 |      MSP      |     (1)
@@ -17,5 +17,5 @@ Basic application template for Cortex-M0
  | 0x00000008 |      irq      |     (3)
              ...
  |   @rst     |  instruction  |     (4)
- 
+             ...
 ```
