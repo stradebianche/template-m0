@@ -25,4 +25,4 @@ Basic application template for Cortex-M0
 ## Reset Handler procedure
  Here, in reset_handler, we have acquired control over our microcontroller. Purpose of reset_handler is to initialize environment for user application. Task performed by reset_handler:
  * Copy variables from FLASH to SRAM
- * Branch to main()
+ * Branch to *main()*
