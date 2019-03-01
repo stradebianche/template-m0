@@ -13,9 +13,9 @@ Basic application template for Cortex-M0
   
     ADDRESS         VALUE
  | 0x00000000 |      MSP      |     (1)
- | 0x00000004 | reset_handler |     (2)
+ | 0x00000004 |   rst_hndlr   |     (2)
  | 0x00000008 |      irq      |     (3)
              ...
- |   @rst     |  instruction  |     (4)
+ | @rst_hndlr |  instruction  |     (4)
              ...
 ```
